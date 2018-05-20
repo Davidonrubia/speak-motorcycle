@@ -1,4 +1,4 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -11,10 +11,8 @@
 </head>
 
 <body>
-    <br/>
-    <!--Headings-->
-    <div style="background-color: black">
-
+    <!--Headings test-->
+    <div style="background-color: black; margin-top: 24px;">
 
         <center>
             <h1 style="color: white">Speak Motorcyle</h1>
@@ -45,36 +43,24 @@
 
     <!--Forms-->
 
-
-
     <label>CAPITULOS</label>
-
-    <select name=" CAPITULOS ">
-
-
+    <select onchange="hasElegido(this.value)">
         <option value="1">1 Personajes</option>
-        <option value="standard">Standard</option>
-
-        <option value="offroad">Offroad</option>
-
-        <option value="racing">Racing</option>
-
-        <option value="professional">Professional</option>
-
-        <option value="long routes">Long routes</option>
-
-
-
+        <option value="2">Standard</option>
+        <option selected value="3">Offroad</option>
+        <option value="4">Racing</option>
+        <option value="5">Professional</option>
+        <option disabled value="6">Long routes</option>
     </select>
 
     <br/>
     <br/>
-    <a href="http://www.motogp.com" target="_blank">Visit Motogp.com!>/a>
-        <footer>
-            <p>Created by: David Onrubia</p>
-            <p>Contact information:
-                <a href="mailto:david@onrubia.es ">david@onrubia.es</a>.</p>
-        </footer>
+    <a href="http://www.motogp.com" target="_blank">Visit Motogp.com!</a>
+    <footer>
+        <p>Created by: David Onrubia</p>
+        <p>Contact information:
+            <a href="mailto:david@onrubia.es ">david@onrubia.es</a>.</p>
+    </footer>
 
 </body>
 
